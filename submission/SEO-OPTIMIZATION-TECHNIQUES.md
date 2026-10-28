@@ -1,9 +1,6 @@
 # ON-PAGE SEO OPTIMIZATION TECHNIQUES DOCUMENTATION
-**Course:** UI/UX  
-**Branch:** Computer Science & Engineering (CSH)  
-**Semester:** V  
-**Institution:** Indian Institute of Information Technology, Nagpur (IIITN)  
-**Website:** RAAHI — Discover India Differently  
+**Live Production URL:** [https://raahi-travel-three.vercel.app/](https://raahi-travel-three.vercel.app/)  
+**Repository:** [https://github.com/ARYANatGIT/UI-UX](https://github.com/ARYANatGIT/UI-UX)  
 
 ---
 
