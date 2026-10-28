@@ -1,0 +1,101 @@
+/* RAAHI Design Tokens — Indian Exploration & Editorial Travel System */
+:root {
+  /* Brand Palette */
+  --color-forest-950: #0d2720;
+  --color-forest-900: #173F35; /* Primary Brand Green */
+  --color-forest-800: #205347;
+  --color-forest-700: #2c6e5e;
+  --color-forest-100: #e4eee9;
+  
+  --color-ivory-50: #FCFAF6;
+  --color-ivory-100: #F8F5ED; /* Primary Background */
+  --color-ivory-200: #F2ECE0;
+  
+  --color-sand-100: #F3ECE1;
+  --color-sand-200: #E9DFCE; /* Muted Sand Accent */
+  --color-sand-300: #D8CABE;
+  
+  --color-terracotta-100: #FAECE7;
+  --color-terracotta-500: #C66D4B; /* Muted Warm Terracotta Accent */
+  --color-terracotta-600: #B05837;
+  --color-terracotta-700: #8E4024;
+  
+  --color-sage-50: #F2F6F1;
+  --color-sage-100: #DCE5D9; /* Soft Sage Background Accent */
+  --color-sage-200: #C3D3BE;
+  
+  --color-charcoal-900: #242923; /* Primary Body & Headline Text */
+  --color-charcoal-700: #495248;
+  --color-charcoal-500: #6E796D;
+  --color-charcoal-400: #939E92;
+  --color-charcoal-200: #CCD4CB;
+
+  --color-white: #FFFFFF;
+  --color-border: #E2D9CB;
+  --color-border-subtle: #EDE5D7;
+  --color-border-dark: #2A5A4D;
+
+  --color-error: #BA1A1A;
+  --color-error-bg: #FFEDEA;
+  --color-success: #1E663B;
+  --color-success-bg: #EAF7EE;
+  --color-warning: #855300;
+  --color-warning-bg: #FFF4E5;
+
+  /* Typography Scales */
+  --font-serif: 'Playfair Display', Georgia, Cambria, 'Times New Roman', serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.8125rem);
+  --text-sm: clamp(0.8125rem, 0.775rem + 0.2vw, 0.875rem);
+  --text-base: clamp(0.9375rem, 0.9rem + 0.25vw, 1.0625rem);
+  --text-lg: clamp(1.125rem, 1.05rem + 0.35vw, 1.25rem);
+  --text-xl: clamp(1.25rem, 1.15rem + 0.5vw, 1.5rem);
+  --text-2xl: clamp(1.5rem, 1.35rem + 0.75vw, 1.875rem);
+  --text-3xl: clamp(1.875rem, 1.6rem + 1.2vw, 2.375rem);
+  --text-4xl: clamp(2.25rem, 1.85rem + 1.8vw, 3.25rem);
+  --text-5xl: clamp(2.75rem, 2.1rem + 2.5vw, 4.25rem);
+
+  /* Spacing Scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  /* Layout Containers */
+  --container-max: 1240px;
+  --container-narrow: 1040px;
+  --container-reading: 780px;
+
+  /* Border Radius */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 26px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-subtle: 0 1px 3px rgba(36, 41, 35, 0.05);
+  --shadow-card: 0 4px 16px rgba(36, 41, 35, 0.07);
+  --shadow-card-hover: 0 14px 32px rgba(23, 63, 53, 0.12);
+  --shadow-modal: 0 20px 50px rgba(13, 39, 32, 0.25);
+
+  /* Transitions */
+  --trans-fast: 150ms ease-out;
+  --trans-normal: 250ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  --trans-slow: 400ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Focus Indicator */
+  --focus-ring: 2px solid var(--color-terracotta-500);
+  --focus-offset: 3px;
+}
+

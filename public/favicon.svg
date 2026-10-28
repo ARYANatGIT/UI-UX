@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <rect width="48" height="48" rx="12" fill="#173F35" />
+  <!-- Outer Compass Ring -->
+  <circle cx="24" cy="24" r="16" fill="none" stroke="#E9DFCE" stroke-width="1.5" stroke-dasharray="2 3" opacity="0.6" />
+  <!-- Compass Star North-South -->
+  <polygon points="24,8 27.5,22 24,24 20.5,22" fill="#C66D4B" />
+  <polygon points="24,40 27.5,26 24,24 20.5,26" fill="#F8F5ED" />
+  <!-- Compass Star East-West -->
+  <polygon points="40,24 26,27.5 24,24 26,20.5" fill="#F8F5ED" />
+  <polygon points="8,24 22,27.5 24,24 22,20.5" fill="#F8F5ED" />
+  <!-- Center Core -->
+  <circle cx="24" cy="24" r="3.5" fill="#173F35" stroke="#F8F5ED" stroke-width="1.5" />
+</svg>

@@ -1,0 +1,27 @@
+{
+  "name": "raahi",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && node scripts/prerender.js",
+    "preview": "vite preview",
+    "screenshot": "node scripts/capture-screenshots.js",
+    "test:seo": "node scripts/validate-seo.js"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "puppeteer-core": "^25.16.0",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.5"
+  },
+  "dependencies": {
+    "lucide-react": "^1.63.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.5"
+  }
+}

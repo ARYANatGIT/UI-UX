@@ -1,0 +1,13 @@
+# Robots.txt for RAAHI — Discover India Differently
+# Production Domain: https://raahi-travel.example.com (Replace with actual deployment domain)
+
+User-agent: *
+Allow: /
+
+# Exclude non-indexable test or internal endpoints if any
+Disallow: /api/
+Disallow: /admin/
+
+# Canonical XML Sitemap
+Sitemap: https://raahi-travel.example.com/sitemap.xml
+
