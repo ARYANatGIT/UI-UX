@@ -110,7 +110,7 @@ RAAHI ON-PAGE SEO VALIDATION AUDIT
   [PASS] File physically exists in build distribution
   [PASS] Unique Title tag present: "Raahi — Discover Beautiful Places to Visit in India | Travel Discovery & Planning" (Length: 81)
   [PASS] Meta description present: length 158 chars
-  [PASS] Canonical URL configured: https://raahi-travel.example.com/
+  [PASS] Canonical URL configured: https://raahi-travel-three.vercel.app/
   [PASS] Exactly one H1 heading present (Found: 1)
   [PASS] Open Graph og:title and og:description present
   [PASS] JSON-LD structured data script element present
@@ -120,7 +120,7 @@ RAAHI ON-PAGE SEO VALIDATION AUDIT
   [PASS] File physically exists in build distribution
   [PASS] Unique Title tag present: "Explore Indian Destinations by Region and Travel Style | Raahi" (Length: 62)
   [PASS] Meta description present: length 132 chars
-  [PASS] Canonical URL configured: https://raahi-travel.example.com/explore
+  [PASS] Canonical URL configured: https://raahi-travel-three.vercel.app/explore
   [PASS] Exactly one H1 heading present (Found: 1)
   [PASS] Open Graph og:title and og:description present
   [PASS] JSON-LD structured data script element present
@@ -130,7 +130,7 @@ RAAHI ON-PAGE SEO VALIDATION AUDIT
   [PASS] File physically exists in build distribution
   [PASS] Unique Title tag present: "India Travel Guides and Itineraries | Raahi" (Length: 43)
   [PASS] Meta description present: length 145 chars
-  [PASS] Canonical URL configured: https://raahi-travel.example.com/guides
+  [PASS] Canonical URL configured: https://raahi-travel-three.vercel.app/guides
   [PASS] Exactly one H1 heading present (Found: 1)
   [PASS] Open Graph og:title and og:description present
   [PASS] JSON-LD structured data script element present
@@ -140,7 +140,7 @@ RAAHI ON-PAGE SEO VALIDATION AUDIT
   [PASS] File physically exists in build distribution
   [PASS] Unique Title tag present: "Three Days in Jaipur: Beyond the Royal Pink Facades | Raahi Travel Journal" (Length: 74)
   [PASS] Meta description present: length 147 chars
-  [PASS] Canonical URL configured: https://raahi-travel.example.com/guides/three-days-in-jaipur
+  [PASS] Canonical URL configured: https://raahi-travel-three.vercel.app/guides/three-days-in-jaipur
   [PASS] Exactly one H1 heading present (Found: 1)
   [PASS] Open Graph og:title and og:description present
   [PASS] JSON-LD structured data script element present
@@ -150,7 +150,7 @@ RAAHI ON-PAGE SEO VALIDATION AUDIT
   [PASS] File physically exists in build distribution
   [PASS] Unique Title tag present: "The Slow Guide to Munnar: Tea Forests & Shola Trails | Raahi Travel Journal" (Length: 75)
   [PASS] Meta description present: length 151 chars
-  [PASS] Canonical URL configured: https://raahi-travel.example.com/guides/munnar-travel-guide
+  [PASS] Canonical URL configured: https://raahi-travel-three.vercel.app/guides/munnar-travel-guide
   [PASS] Exactly one H1 heading present (Found: 1)
   [PASS] Open Graph og:title and og:description present
   [PASS] JSON-LD structured data script element present
@@ -160,7 +160,7 @@ RAAHI ON-PAGE SEO VALIDATION AUDIT
   [PASS] File physically exists in build distribution
   [PASS] Unique Title tag present: "A Mindful Weekend in Rishikesh: River, Ridge & Reflection | Raahi Travel Journal" (Length: 80)
   [PASS] Meta description present: length 141 chars
-  [PASS] Canonical URL configured: https://raahi-travel.example.com/guides/weekend-in-rishikesh
+  [PASS] Canonical URL configured: https://raahi-travel-three.vercel.app/guides/weekend-in-rishikesh
   [PASS] Exactly one H1 heading present (Found: 1)
   [PASS] Open Graph og:title and og:description present
   [PASS] JSON-LD structured data script element present
@@ -170,7 +170,7 @@ RAAHI ON-PAGE SEO VALIDATION AUDIT
   [PASS] File physically exists in build distribution
   [PASS] Unique Title tag present: "Plan Your India Trip | Raahi Itinerary Builder" (Length: 46)
   [PASS] Meta description present: length 146 chars
-  [PASS] Canonical URL configured: https://raahi-travel.example.com/plan
+  [PASS] Canonical URL configured: https://raahi-travel-three.vercel.app/plan
   [PASS] Exactly one H1 heading present (Found: 1)
   [PASS] Open Graph og:title and og:description present
   [PASS] JSON-LD structured data script element present
@@ -180,7 +180,7 @@ RAAHI ON-PAGE SEO VALIDATION AUDIT
   [PASS] File physically exists in build distribution
   [PASS] Unique Title tag present: "Page Not Found (404) | Raahi — Discover India Differently" (Length: 57)
   [PASS] Meta description present: length 113 chars
-  [PASS] Canonical URL configured: https://raahi-travel.example.com/404
+  [PASS] Canonical URL configured: https://raahi-travel-three.vercel.app/404
   [PASS] Exactly one H1 heading present (Found: 1)
   [PASS] Open Graph og:title and og:description present
   [PASS] JSON-LD structured data script element present
@@ -206,3 +206,4 @@ npm run test:seo
 # 3. Capture high-resolution screenshot evidence
 npm run screenshot
 ```
+

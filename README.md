@@ -165,9 +165,10 @@ The application is engineered to deploy seamlessly to any static web host:
 3. Deploy the contents of `dist/` to the `gh-pages` branch. The build output includes `dist/404.html` and physical subdirectories (`dist/explore/index.html`, `dist/guides/three-days-in-jaipur/index.html`), ensuring direct URL refresh and browser history work without redirection issues.
 
 ### 7.2 Netlify / Vercel Deployment
+- **Live Deployment:** [https://raahi-travel-three.vercel.app/](https://raahi-travel-three.vercel.app/)
 - **Build Command:** `npm run build`
-- **Publish Directory:** `dist`
-- No server-side redirects or functions required.
+- **Output Directory:** `dist`
+- Static SPA rewrites and clean routing configured in `vercel.json`.
 
 ---
 

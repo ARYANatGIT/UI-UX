@@ -98,7 +98,7 @@ The following table addresses all assignment on-page optimization factors using 
 | **Semantic HTML** | W3C Nu HTML Checker | https://validator.w3.org/nu/ | [`03-explore-desktop.png`](screenshots/03-explore-desktop.png) — Semantic landmarks `<header>`, `<nav>`, `<main>`, `<article>`, `<aside>`, `<footer>`. Valid HTML5 tags, zero unclosed elements. Status: **Verified** |
 | **Image alt text and image optimization** | Google Lighthouse (SEO & Core Web Vitals) | https://developer.chrome.com/docs/lighthouse/overview/ | [`07-guide-article-jaipur.png`](screenshots/07-guide-article-jaipur.png) — Descriptive context-rich alt text on all informative imagery; explicit `width` and `height` preventing Cumulative Layout Shift (CLS); `fetchPriority="high"` on LCP hero image. Status: **Verified** |
 | **URL structure and internal linking** | Screaming Frog SEO Spider & Local Crawl Verifier | https://www.screamingfrog.co.uk/seo-spider/ | [`03-explore-desktop.png`](screenshots/03-explore-desktop.png) — Clean semantic slugs (`/guides/three-days-in-jaipur`); contextual cross-linking between destinations, guides, and planner; zero broken internal links. Status: **Verified** |
-| **Canonical URLs** | Search Console URL Inspection Prep Tool | https://search.google.com/search-console/about | [`metadata-and-schema-inspection.png`](seo-evidence/01-metadata-and-schema-inspection.png) — Explicit `<link rel="canonical">` tags on all pages referencing the configured production domain `https://raahi-travel.example.com/`. Status: **Verified** |
+| **Canonical URLs** | Search Console URL Inspection Prep Tool | https://search.google.com/search-console/about | [`metadata-and-schema-inspection.png`](seo-evidence/01-metadata-and-schema-inspection.png) — Explicit `<link rel="canonical">` tags on all pages referencing the live Vercel production domain `https://raahi-travel-three.vercel.app/`. Status: **Verified** |
 | **Open Graph metadata** | Facebook Open Graph & Twitter Card Validator | https://developers.facebook.com/tools/debug/ | [`metadata-and-schema-inspection.png`](seo-evidence/01-metadata-and-schema-inspection.png) — Valid `og:title`, `og:description`, `og:type`, `og:url`, `og:image`, and `twitter:card` tags on all routes. Status: **Verified** |
 | **Structured data (JSON-LD)** | Schema Markup Validator & Google Rich Results Test | https://validator.schema.org/ | [`metadata-and-schema-inspection.png`](seo-evidence/01-metadata-and-schema-inspection.png) — Valid Schema.org JSON-LD schemas for `WebSite`, `BlogPosting`, `CollectionPage`, and `WebApplication`. Status: **Verified** |
 | **Sitemap and robots.txt** | Google Search Central Sitemap Validator | https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap | [`sitemap-xml-inspection.png`](seo-evidence/02-sitemap-xml-inspection.png) — Valid XML sitemap (`public/sitemap.xml`) with canonical URLs, change frequencies, and valid `robots.txt`. Status: **Verified** |
@@ -131,7 +131,7 @@ RAAHI ON-PAGE SEO VALIDATION AUDIT
   [PASS] File physically exists in build distribution
   [PASS] Unique Title tag present: "Raahi — Discover Beautiful Places to Visit in India | Travel Discovery & Planning" (Length: 81)
   [PASS] Meta description present: length 158 chars
-  [PASS] Canonical URL configured: https://raahi-travel.example.com/
+  [PASS] Canonical URL configured: https://raahi-travel-three.vercel.app/
   [PASS] Exactly one H1 heading present (Found: 1)
   [PASS] Open Graph og:title and og:description present
   [PASS] JSON-LD structured data script element present
@@ -141,7 +141,7 @@ RAAHI ON-PAGE SEO VALIDATION AUDIT
   [PASS] File physically exists in build distribution
   [PASS] Unique Title tag present: "Explore Indian Destinations by Region and Travel Style | Raahi" (Length: 62)
   [PASS] Meta description present: length 132 chars
-  [PASS] Canonical URL configured: https://raahi-travel.example.com/explore
+  [PASS] Canonical URL configured: https://raahi-travel-three.vercel.app/explore
   [PASS] Exactly one H1 heading present (Found: 1)
   [PASS] Open Graph og:title and og:description present
   [PASS] JSON-LD structured data script element present
@@ -151,7 +151,7 @@ RAAHI ON-PAGE SEO VALIDATION AUDIT
   [PASS] File physically exists in build distribution
   [PASS] Unique Title tag present: "India Travel Guides and Itineraries | Raahi" (Length: 43)
   [PASS] Meta description present: length 145 chars
-  [PASS] Canonical URL configured: https://raahi-travel.example.com/guides
+  [PASS] Canonical URL configured: https://raahi-travel-three.vercel.app/guides
   [PASS] Exactly one H1 heading present (Found: 1)
   [PASS] Open Graph og:title and og:description present
   [PASS] JSON-LD structured data script element present
@@ -161,7 +161,7 @@ RAAHI ON-PAGE SEO VALIDATION AUDIT
   [PASS] File physically exists in build distribution
   [PASS] Unique Title tag present: "Three Days in Jaipur: Beyond the Royal Pink Facades | Raahi Travel Journal" (Length: 74)
   [PASS] Meta description present: length 147 chars
-  [PASS] Canonical URL configured: https://raahi-travel.example.com/guides/three-days-in-jaipur
+  [PASS] Canonical URL configured: https://raahi-travel-three.vercel.app/guides/three-days-in-jaipur
   [PASS] Exactly one H1 heading present (Found: 1)
   [PASS] Open Graph og:title and og:description present
   [PASS] JSON-LD structured data script element present
@@ -171,7 +171,7 @@ RAAHI ON-PAGE SEO VALIDATION AUDIT
   [PASS] File physically exists in build distribution
   [PASS] Unique Title tag present: "The Slow Guide to Munnar: Tea Forests & Shola Trails | Raahi Travel Journal" (Length: 75)
   [PASS] Meta description present: length 151 chars
-  [PASS] Canonical URL configured: https://raahi-travel.example.com/guides/munnar-travel-guide
+  [PASS] Canonical URL configured: https://raahi-travel-three.vercel.app/guides/munnar-travel-guide
   [PASS] Exactly one H1 heading present (Found: 1)
   [PASS] Open Graph og:title and og:description present
   [PASS] JSON-LD structured data script element present
@@ -181,7 +181,7 @@ RAAHI ON-PAGE SEO VALIDATION AUDIT
   [PASS] File physically exists in build distribution
   [PASS] Unique Title tag present: "A Mindful Weekend in Rishikesh: River, Ridge & Reflection | Raahi Travel Journal" (Length: 80)
   [PASS] Meta description present: length 141 chars
-  [PASS] Canonical URL configured: https://raahi-travel.example.com/guides/weekend-in-rishikesh
+  [PASS] Canonical URL configured: https://raahi-travel-three.vercel.app/guides/weekend-in-rishikesh
   [PASS] Exactly one H1 heading present (Found: 1)
   [PASS] Open Graph og:title and og:description present
   [PASS] JSON-LD structured data script element present
@@ -191,7 +191,7 @@ RAAHI ON-PAGE SEO VALIDATION AUDIT
   [PASS] File physically exists in build distribution
   [PASS] Unique Title tag present: "Plan Your India Trip | Raahi Itinerary Builder" (Length: 46)
   [PASS] Meta description present: length 146 chars
-  [PASS] Canonical URL configured: https://raahi-travel.example.com/plan
+  [PASS] Canonical URL configured: https://raahi-travel-three.vercel.app/plan
   [PASS] Exactly one H1 heading present (Found: 1)
   [PASS] Open Graph og:title and og:description present
   [PASS] JSON-LD structured data script element present
@@ -201,7 +201,7 @@ RAAHI ON-PAGE SEO VALIDATION AUDIT
   [PASS] File physically exists in build distribution
   [PASS] Unique Title tag present: "Page Not Found (404) | Raahi — Discover India Differently" (Length: 57)
   [PASS] Meta description present: length 113 chars
-  [PASS] Canonical URL configured: https://raahi-travel.example.com/404
+  [PASS] Canonical URL configured: https://raahi-travel-three.vercel.app/404
   [PASS] Exactly one H1 heading present (Found: 1)
   [PASS] Open Graph og:title and og:description present
   [PASS] JSON-LD structured data script element present
@@ -227,9 +227,9 @@ During the design, development, and testing phases, several technical refinement
 ## 8. Limitations and Tasks Requiring Public Deployment
 
 In accordance with academic integrity guidelines:
-- **Google Search Console Verification:** Search Console verification requires hosting the build on a public domain (e.g. GitHub Pages, Netlify, or Vercel) and uploading an HTML verification file or DNS TXT record.
-- **PageSpeed Insights Remote Audit:** The public PageSpeed Insights tool requires a live internet-accessible URL. Local Lighthouse audits have confirmed high performance, but live field telemetry (CrUX report) requires real user traffic.
-- **Configurable Canonical Domain:** Canonical URLs currently default to the placeholder `https://raahi-travel.example.com/`. Prior to public hosting, this domain should be updated by specifying `VITE_SITE_URL=https://your-username.github.io/raahi` in `.env`.
+- **Google Search Console Verification:** Search Console verification requires hosting the build on a public domain and uploading an HTML verification file or DNS TXT record. With the website now publicly deployed at `https://raahi-travel-three.vercel.app`, site ownership can be verified in Search Console.
+- **PageSpeed Insights Remote Audit:** The public PageSpeed Insights tool requires a live internet-accessible URL. Now that the site is live at `https://raahi-travel-three.vercel.app`, remote real-time PageSpeed audits can be executed.
+- **Configured Canonical Domain:** Canonical URLs are configured to point directly to the live production deployment: `https://raahi-travel-three.vercel.app`.
 
 ---
 

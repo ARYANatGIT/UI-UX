@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const distDir = path.resolve(__dirname, '../dist');
 
-const SITE_URL = process.env.VITE_SITE_URL || 'https://raahi-travel.example.com';
+const SITE_URL = process.env.VITE_SITE_URL || 'https://raahi-travel-three.vercel.app';
 
 // Define route metadata and static semantic content for crawler prerendering
 const routes = [

@@ -117,11 +117,11 @@ export const Home: React.FC<HomeProps> = ({
           "@context": "https://schema.org",
           "@type": "WebSite",
           "name": "Raahi",
-          "url": "https://raahi-travel.example.com/",
+          "url": "https://raahi-travel-three.vercel.app/",
           "description": "Discover India differently. An editorial guide to curated destinations, authentic travel guides, and personalized journey planning.",
           "potentialAction": {
             "@type": "SearchAction",
-            "target": "https://raahi-travel.example.com/explore?q={search_term_string}",
+            "target": "https://raahi-travel-three.vercel.app/explore?q={search_term_string}",
             "query-input": "required name=search_term_string"
           }
         }}

@@ -161,7 +161,7 @@ export const Explore: React.FC<ExploreProps> = ({
           "@type": "CollectionPage",
           "name": "Explore Indian Destinations — Raahi",
           "description": "Catalog of curated Indian destinations across North, South, Northeast, West, and Central India.",
-          "url": "https://raahi-travel.example.com/explore",
+          "url": "https://raahi-travel-three.vercel.app/explore",
           "itemListElement": filteredDestinations.slice(0, 10).map((dest, index) => ({
             "@type": "ListItem",
             "position": index + 1,

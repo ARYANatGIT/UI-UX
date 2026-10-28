@@ -113,3 +113,4 @@ To run the automated tests locally:
   npm run test:seo     # Executes the 70-point on-page SEO automated auditor
   npm run screenshot   # Captures desktop & mobile high-resolution screenshots
 ====================================================================================================
+

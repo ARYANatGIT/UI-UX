@@ -82,12 +82,12 @@ export const GuideArticlePage: React.FC<GuideArticlePageProps> = ({
             "name": "Raahi",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://raahi-travel.example.com/favicon.svg"
+              "url": "https://raahi-travel-three.vercel.app/favicon.svg"
             }
           },
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": `https://raahi-travel.example.com/guides/${article.slug}`
+            "@id": `https://raahi-travel-three.vercel.app/guides/${article.slug}`
           }
         }}
       />

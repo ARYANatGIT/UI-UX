@@ -9,7 +9,7 @@ interface SEOHeadProps {
   structuredData?: Record<string, any> | Record<string, any>[];
 }
 
-const DEFAULT_SITE_URL = 'https://raahi-travel.example.com';
+const DEFAULT_SITE_URL = 'https://raahi-travel-three.vercel.app';
 const DEFAULT_IMAGE = 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80';
 
 export const SEOHead: React.FC<SEOHeadProps> = ({

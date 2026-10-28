@@ -1,5 +1,5 @@
 # Robots.txt for RAAHI — Discover India Differently
-# Production Domain: https://raahi-travel.example.com (Replace with actual deployment domain)
+# Production Domain: https://raahi-travel-three.vercel.app
 
 User-agent: *
 Allow: /
@@ -9,5 +9,5 @@ Disallow: /api/
 Disallow: /admin/
 
 # Canonical XML Sitemap
-Sitemap: https://raahi-travel.example.com/sitemap.xml
+Sitemap: https://raahi-travel-three.vercel.app/sitemap.xml
 

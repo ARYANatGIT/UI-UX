@@ -51,12 +51,12 @@ export const Guides: React.FC = () => {
           "@type": "Blog",
           "name": "The Raahi Travel Journal",
           "description": "Field guides, architectural histories, and mindful itineraries across India.",
-          "url": "https://raahi-travel.example.com/guides",
+          "url": "https://raahi-travel-three.vercel.app/guides",
           "blogPost": GUIDE_ARTICLES.map((g) => ({
             "@type": "BlogPosting",
             "headline": g.title,
             "description": g.metaDescription,
-            "url": `https://raahi-travel.example.com/guides/${g.slug}`,
+            "url": `https://raahi-travel-three.vercel.app/guides/${g.slug}`,
             "datePublished": g.publishedDate,
             "author": {
               "@type": "Person",
