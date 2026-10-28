@@ -1,11 +1,3 @@
-# RAAHI — Website Screenshots & Interface Guide
-**Course:** UI/UX (Semester V) • **Branch:** CSH  
-**Department:** Computer Science & Engineering  
-**Institution:** Indian Institute of Information Technology, Nagpur (IIITN)  
-**Project:** RAAHI — Discover India Differently (Editorial Travel Discovery & Planning Platform)  
-
----
-
 ## 1. Overview & Capture Methodology
 
 This document presents high-resolution screenshots of the developed **RAAHI** travel discovery and itinerary planning application. All screenshots were genuinely captured from the live application running in headless Chrome via automated Puppeteer scripts (`npm run screenshot`).

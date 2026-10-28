@@ -1,24 +1,6 @@
-# Indian Institute of Information Technology, Nagpur
-## Department of Computer Science & Engineering
-### UI/UX Assignment — On-Page SEO Optimization Report
-
-```
-========================================================================================
-Course: UI/UX (CSH)                                                 Semester: V
-Institution: Indian Institute of Information Technology, Nagpur (IIITN)
-Website Concept: RAAHI — Discover India Differently
-Project Category: Indian Travel Discovery, Destination Guides & Itinerary Planning
-Student Name: [Fill in Student Name]
-Roll Number: [Fill in Roll Number]
-Submission Date: October 29, 2026
-========================================================================================
-```
-
----
-
 ## 1. Introduction and Website Overview
 
-**RAAHI** ("Traveler" in Hindi) is a production-quality, static web application designed and developed for the Semester V UI/UX curriculum at the Indian Institute of Information Technology, Nagpur. 
+**RAAHI** ("Traveler" in Hindi) is a production-quality, static web application designed and developed as an editorial travel discovery and itinerary planning platform.
 
 Rather than adopting a commercial travel-booking aesthetic with promotional banners and price popups, RAAHI embraces an **editorial travel publication design system**. It blends cinematic landscape photography, mindful cultural journalism, and an intuitive client-side itinerary planner. The platform guides travelers away from congested tourist corridors toward meaningful cultural encounters, artisan craft guilds, and pristine natural habitats across India.
 
@@ -35,7 +17,7 @@ From an engineering perspective, RAAHI is built as a **100% static React and Vit
 4. **Measurable Technical SEO Readiness:** Implement real, inspectable on-page SEO techniques to ensure high crawlability, indexability, social shareability, and WCAG 2.2 AA accessibility.
 
 ### 2.2 Primary Target Audiences
-- **College Students & University Backpackers:** Seeking budget-conscious, culturally authentic weekend retreats and semester break trails (e.g. Rishikesh, Hampi, Spiti).
+- **Independent Backpackers & Solo Explorers:** Seeking budget-conscious, culturally authentic weekend retreats and vacation trails (e.g. Rishikesh, Hampi, Spiti).
 - **Young Working Professionals:** Looking for restorative, slow-travel escapes with reliable transit blueprints (e.g. Munnar, Coorg, South Goa).
 - **Culture, Architecture & Heritage Enthusiasts:** Interested in stepwells, astronomical observatories, living root bridges, and handloom cooperatives (e.g. Jaipur, Chettinad, Orchha).
 
@@ -87,9 +69,9 @@ JSON-LD scripts are embedded on all routes:
 
 ---
 
-## 5. Required Assignment SEO Optimization Audit Table
+## 5. Master On-Page SEO Optimization Audit Table
 
-The following table addresses all assignment on-page optimization factors using the exact specified column headers:
+The following table addresses all on-page optimization factors under consideration using standard audit parameters:
 
 | On-page optimisation factor under consideration | Name of tool used | URL of the tool | Tool output screenshots |
 |:---|:---|:---|:---|
@@ -220,13 +202,13 @@ During the design, development, and testing phases, several technical refinement
 1. **Elimination of Single-Page Application Crawl Blankness:** Standard React client-side SPAs output an empty `<div id="root"></div>`, which risks poor indexing by basic search engine crawlers. We implemented `scripts/prerender.js`, automatically generating static HTML pages for every primary route with embedded semantic content, titles, descriptions, and schemas.
 2. **Elimination of Cumulative Layout Shifts (CLS):** Destination and article cards initially loaded images without fixed aspect ratios. We defined explicit `aspect-ratio: 16 / 10` and `aspect-ratio: 16 / 9` with corresponding `width` and `height` attributes to preserve layout geometry during image loading.
 3. **Enhanced Mobile Navigation Accessibility:** The mobile menu drawer was refactored with focus management, backdrop locking (`overflow: hidden`), and an explicit `Escape` key event listener.
-4. **Print Optimization for Academic Dossier:** A custom print stylesheet (`@media print`) was implemented in `src/styles/global.css` that strips navigation elements, search inputs, and action buttons, formatting the personalized itinerary as an elegant 1-page PDF dossier suitable for academic evaluation.
+4. **Print Optimization for Itinerary Dossier:** A custom print stylesheet (`@media print`) was implemented in `src/styles/global.css` that strips navigation elements, search inputs, and action buttons, formatting the personalized itinerary as an elegant 1-page PDF dossier suitable for offline travel and physical review.
 
 ---
 
 ## 8. Limitations and Tasks Requiring Public Deployment
 
-In accordance with academic integrity guidelines:
+In accordance with standard verification guidelines:
 - **Google Search Console Verification:** Search Console verification requires hosting the build on a public domain and uploading an HTML verification file or DNS TXT record. With the website now publicly deployed at `https://raahi-travel-three.vercel.app`, site ownership can be verified in Search Console.
 - **PageSpeed Insights Remote Audit:** The public PageSpeed Insights tool requires a live internet-accessible URL. Now that the site is live at `https://raahi-travel-three.vercel.app`, remote real-time PageSpeed audits can be executed.
 - **Configured Canonical Domain:** Canonical URLs are configured to point directly to the live production deployment: `https://raahi-travel-three.vercel.app`.
@@ -235,5 +217,5 @@ In accordance with academic integrity guidelines:
 
 ## 9. Conclusion
 
-The **RAAHI** travel discovery platform achieves all requirements set forth for the Semester V UI/UX assignment at IIIT Nagpur. By uniting editorial visual design, robust client-side state architecture, and authentic on-page SEO optimization, the project stands as an exemplary portfolio-grade demonstration of contemporary web engineering and product design.
+The **RAAHI** travel discovery platform unites editorial visual design, robust client-side state architecture, and authentic on-page SEO optimization to deliver an exemplary portfolio-grade demonstration of contemporary web engineering and product design.
 

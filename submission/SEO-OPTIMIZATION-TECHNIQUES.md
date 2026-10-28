@@ -14,7 +14,7 @@ Every technique listed below is implemented in production code, verified through
 
 ## 2. On-Page SEO Optimization Master Table
 
-The table below strictly follows the format prescribed in the assignment guidelines:
+The table below details all on-page optimization factors under consideration:
 
 | On page optimisation factor under consideration | Name of tool used | Url of the tool | Tool output screenshots |
 |:---|:---|:---|:---|

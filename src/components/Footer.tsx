@@ -7,7 +7,7 @@ export const Footer: React.FC = () => {
   return (
     <footer className="site-footer">
       <div className="container footer-inner">
-        {/* Top Section: Brand & Academic Context */}
+        {/* Top Section: Brand & Navigation */}
         <div className="footer-grid">
           {/* Column 1: Brand Info */}
           <div className="footer-col footer-col--brand">

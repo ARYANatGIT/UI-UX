@@ -1,10 +1,4 @@
 # RAAHI — Discover India Differently
-### Academic UI/UX Design & Frontend Engineering Project
-**Institution:** Indian Institute of Information Technology, Nagpur (IIITN)  
-**Department:** Computer Science & Engineering • **Branch:** CSH • **Semester:** V  
-**Subject:** UI/UX Evaluation Project  
-
----
 
 ## 1. Project Overview
 
@@ -47,7 +41,7 @@ The application is built strictly as a **100% static frontend** without backend 
 ## 4. Project Directory Structure
 
 ```
-d:/UIUX/
+raahi/
 ├── public/
 │   ├── favicon.svg             # Custom RAAHI compass brand mark
 │   ├── robots.txt              # Crawler permissions & sitemap reference
@@ -58,7 +52,7 @@ d:/UIUX/
 │   │   ├── Breadcrumbs.tsx     # Semantic breadcrumb trail
 │   │   ├── DestinationCard.tsx # Destination card with image & badges
 │   │   ├── EmptyState.tsx      # Friendly search/filter recovery state
-│   │   ├── Footer.tsx          # Semantic footer with academic credits
+│   │   ├── Footer.tsx          # Semantic footer with brand and navigation links
 │   │   ├── GuideCard.tsx       # Editorial travel journal card
 │   │   ├── Header.tsx          # Sticky navigation & mobile drawer
 │   │   ├── SEOHead.tsx         # Dynamic titles, meta, and JSON-LD schema
@@ -84,7 +78,7 @@ d:/UIUX/
 │   ├── prerender.js            # Build-time static HTML & metadata prerenderer
 │   └── validate-seo.js         # Automated 70-point on-page SEO validator
 ├── submission/
-│   ├── on-page-seo-report.md   # Formal academic SEO report with audit table
+│   ├── on-page-seo-report.md   # Comprehensive SEO optimization report with audit table
 │   ├── seo-evidence/           # Audit evidence inspection captures
 │   ├── seo-implementation-inventory.md # Technical matrix of SEO implementations
 │   ├── website-screenshots-guide.md    # Complete screenshot catalog & walkthrough
@@ -172,23 +166,23 @@ The application is engineered to deploy seamlessly to any static web host:
 
 ---
 
-## 8. Academic Deliverables Guide
+## 8. Documentation & Technical Reports
 
-All required academic documentation and evidence files are located in the `submission/` directory:
+All technical documentation, reports, and evidence files are located in the `submission/` directory:
 
 1. **Website Screenshots Documentation:** [`submission/website-screenshots-guide.md`](submission/website-screenshots-guide.md)
    - Professional checklist covering all 10 required views with exact viewports.
    - Genuine high-resolution screenshots saved in `submission/screenshots/`.
 2. **On-Page SEO Optimization Report:** [`submission/on-page-seo-report.md`](submission/on-page-seo-report.md)
-   - Academic title page for IIIT Nagpur CSE Department (Semester V).
-   - 9 structured academic sections.
-   - Required 4-column SEO audit table with exact URLs and evidence links.
+   - Full SEO technical audit and performance analysis.
+   - 9 structured sections covering crawlability, metadata, structured data, and accessibility.
+   - Master 4-column SEO audit table with exact URLs and evidence links.
 3. **SEO Implementation Inventory:** [`submission/seo-implementation-inventory.md`](submission/seo-implementation-inventory.md)
    - Granular inventory matrix linking code files, routes, and verification status.
 
 ---
 
-## 9. Academic Integrity & Verification Disclaimer
+## 9. Verification & Audit Disclaimer
 
 All screenshots, code, and validation outputs included in this submission were genuinely produced and tested in the active workspace. External audits that require live public internet access (e.g., Google Search Console domain ownership verification and remote PageSpeed field data) are clearly designated as **"Pending public deployment"** in accordance with honest engineering reporting practices.
 

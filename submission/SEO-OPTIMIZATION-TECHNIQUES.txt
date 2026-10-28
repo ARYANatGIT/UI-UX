@@ -1,11 +1,12 @@
 ====================================================================================================
 ON-PAGE SEO OPTIMIZATION TECHNIQUES DOCUMENTATION
+Website: RAAHI — Discover India Differently
 Live Production URL: https://raahi-travel-three.vercel.app/
 Repository: https://github.com/ARYANatGIT/UI-UX
 Category: Indian Travel Discovery, Destination Guides & Itinerary Planning
 ====================================================================================================
 
-1. MASTER ON-PAGE SEO OPTIMIZATION TABLE (Assignment Specification)
+1. MASTER ON-PAGE SEO OPTIMIZATION TABLE
 ----------------------------------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------

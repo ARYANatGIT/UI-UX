@@ -1,10 +1,3 @@
-# RAAHI — On-Page SEO Implementation Inventory
-**Course:** UI/UX (Semester V) • **Department:** Computer Science & Engineering  
-**Institution:** Indian Institute of Information Technology, Nagpur (IIITN)  
-**Website:** RAAHI — Discover India Differently  
-
----
-
 ## Technical Implementation & Verification Matrix
 
 | SEO Technique | Source Implementation File | Affected Routes | Verification Method | Status |
